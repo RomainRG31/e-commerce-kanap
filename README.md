@@ -1,17 +1,30 @@
-# Kanap #
+# P5-Kanap - Construisez un site e-commerce en JavaScript
 
-This is the front end and back end server for Project 5 of the Web Developer path.
+<p align="center">
+  <img src="https://user.oc-static.com/upload/2021/09/29/16329291678171_image2.png">
+</p>
 
-### Back end Prerequisites ###
+## Backend
 
-You will need to have Node and `npm` installed locally on your machine.
+Le dossier back permet de faire tourner l'api contenant les données des produits.
 
-### Back end Installation ###
+### Installation
 
-Clone this repo. From the "back" folder of the project, run `npm install`. You 
-can then run the server with `node server`. 
-The server should run on `localhost` with default port `3000`. If the
-server runs on another port for any reason, this is printed to the
-console when the server starts, e.g. `Listening on port 3001`.
-# e-commerce-kanap
-# e-commerce-kanap
+Il suffit de se positionner dans le dossier backend avec un terminal et de saisir la commande `npm install`
+
+### Lancement du serveur
+
+Il suffit de se positionner dans le dossier backend avec un terminal et de saisir la commande `node start`
+Par défaut le serveur sera lancé sur le port 3000 ( http://localhost:3000 )
+
+## Frontend
+
+Le frontend présente la partie utilisateur de l'application. Il doit être lancé avec un serveur local (live server avec vscode par exemple), et nécessite que le backend soit lancé lui aussi pour fonctionner correctement.
+
+### Config
+
+Le fichier de config permet de définir l'adresse de base du server, avec son host, port et si un certificat ssl est utilisé ou non.
+
+<p align="center">
+  <img width="400" src="https://user-images.githubusercontent.com/75472004/135489506-7739b723-4e48-4439-a4e3-9932ee269aed.png">
+</p>
